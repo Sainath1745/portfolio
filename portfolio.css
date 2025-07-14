@@ -1,0 +1,703 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: palegoldenrod;
+    margin : 0;
+    padding : 0;
+}
+
+#wrapper{
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+section {
+  scroll-margin-top: 60px; /* or equal to your mobile nav height */
+}
+
+#home{
+    scroll-margin-top: 20px;
+}
+
+#mainclass{
+    top : 0;
+    z-index: 999;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap : wrap;
+    padding: 10px 5%;
+    height : 120px;
+}
+
+#mainclass ul{
+    list-style-type: none;
+    padding : 0;
+    margin : 0;
+    display : flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap : 20px;
+    flex : 1;
+}
+
+#mainclass ul li{
+    padding : 1%;
+    font-size: 30px;
+    color:aliceblue;
+    font-family : "Lato", sans-serif;
+}
+
+#mainclass ul li a{
+    text-decoration: none;
+    color : grey;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+/*#mainclass:after{
+    content : " ";
+    display : block;
+    clear : both;
+}
+    */
+
+.About-me{
+    font-size : 60px;
+    font-weight: 100;
+    padding: 20px 5% 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.work{
+    margin-bottom : 4%;
+}
+
+.Image1{
+    margin : 0 auto;
+    padding : 0;
+    border-radius : 40px;
+    border : 1px solid;
+    background-color: aqua;
+    display : block;
+}
+
+.Image1{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.Myself{
+    text-align : center;
+    margin : 100px auto;
+    font-size : 50px;
+    font-weight: 900;
+    margin-bottom : 4%;
+    font-family : "Montserrat", sans-serif;
+}
+
+.Myself1{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    padding : 0 1%;
+}
+
+.Image2{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border : 1px solid;
+    border-radius : 5%;
+}
+
+.Myself1 p{
+    max-width: 800px;
+    margin : 0;
+    text-align : left;
+    font-size : 16px;
+    padding : 0 2%;
+    font-weight: 100;
+    font-family : 'Lato', 'sans-serif';
+    line-height : 1.5em;
+    word-spacing: 0.1em;
+}
+
+.My-Experience{
+    font-size : 50px;
+    font-family : "Montserrat", sans-serif;
+    margin-top : 50px;
+    font-weight:900;
+    text-align : center;
+}
+
+.Experience{
+    margin : 0 auto;
+    padding : 0 5%;
+}
+
+.job-title{
+    display : flex;
+    flex-wrap: wrap;
+    margin : 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 25px;
+    font-weight:500;
+    justify-content: space-between;
+}
+
+.dates{
+    font-size : 22px;
+    font-weight: 100;
+}
+
+.Experience ul{
+    margin-top : 1%;
+    padding : 0 0 0 3%;
+    font-size : 18px;
+    font-weight: 500;
+}
+
+.Experience ul li{
+    font-family: 'Lato', sans-serif;
+    font-weight : 100;
+    padding : 10px;
+}
+
+.Skills{
+    width : 100%;
+    box-sizing : border-box;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 5% 100px;
+    gap : 30px;
+}
+
+.mute{
+    font-size : 50px;
+    font-weight: 900;
+    font-family : "Montserrat", sans-serif;
+    text-align : center;
+    }
+
+.Skills img{
+    width : 8%;
+    height : auto;
+    max-width: 100%;
+}
+
+.P-Sections{
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    gap : 2%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.Projects h1{
+    font-size : 50px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top : 10px;
+}
+
+.Projects1, .Projects2, .Projects3{
+    box-sizing: border-box;
+    border : 1px solid;
+    border-radius : 20px;
+    width: 30%;
+}
+
+.Projects1 img{
+    border-radius: 20px 20px 0 0;
+    display : block;
+}
+
+.Projects2 img{
+    border-radius : 20px 20px 0 0;
+    display : block;
+}
+
+.Projects3 img{
+    border-radius : 20px 20px 0 0;
+    display : block;
+}
+
+.P-Sections p{
+    font-size : 18px;
+    font-family : "Lato", sans-serif;
+    font-weight : 100;
+    padding : 0 1%;
+    text-align : left;
+    box-sizing: border-box;
+}
+
+.Connect h1{
+    text-align : center;
+    font-size : 50px;
+    font-weight: 900;
+    font-family : "Montserrat", sans-serif;
+    margin-top : 100px;
+}
+
+.contact{
+    margin-top : 2%;
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 4%;
+}
+
+.contact img{
+    height : auto;
+    width : 40px;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 1024px) {
+  #mainclass {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #mainclass img {
+    height: 130px;
+    width: 15%;
+  }
+
+  #mainclass ul {
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  #mainclass ul li {
+    font-size: 20px;
+  }
+
+  .About-me {
+    font-size: 40px;
+    padding: 40px 5%;
+  }
+
+  .work{
+    padding : 0 0 30px 0;
+  }
+
+  .Image1 {
+    width: 40px;
+  }
+
+  .Myself {
+    font-size: 40px;
+    margin: 60px auto 30px;
+  }
+
+  .Myself1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .Myself1 p {
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: justify;
+    width : auto;
+  }
+
+  .My-Experience {
+    font-size: 40px;
+    margin: 60px auto 30px;
+  }
+
+  .job-title {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .dates {
+    font-size: 20px;
+  }
+
+  .Experience ul {
+    font-size: 18px;
+  }
+
+  .Experience ul li {
+    padding: 8px;
+  }
+
+  .mute {
+    font-size: 40px;
+  }
+
+  .Skills {
+    gap: 15px;
+    padding : 0;
+  }
+
+  .mute{
+    margin: 80px auto 50px;
+  }
+
+  .Skills img {
+    width: 12%;
+  }
+
+  .Projects h1 {
+    font-size: 40px;
+    margin: 100px auto 30px;
+  }
+
+  .P-Sections {
+    gap: 3%;
+  }
+
+  .Projects1, .Projects2, .Projects3 {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  .P-Sections p {
+    font-size: 16px;
+  }
+
+  .Connect h1 {
+    font-size: 40px;
+  }
+
+  .contact img {
+    width: 35px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #mainclass {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 2%;
+  }
+
+  #mainclass img {
+    width: 25%;
+    height: auto;
+  }
+
+  #mainclass ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  #mainclass ul li {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .About-me {
+    font-size: 30px;
+    padding: 30px 4%;
+  }
+
+  .work {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Image1 {
+    width: 40px;
+  }
+
+  .Myself {
+    font-size: 32px;
+    margin: 50px auto 20px;
+  }
+
+  .Myself1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .Image2 {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+
+  .Myself1 p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px 0;
+    width : auto;
+  }
+
+  .My-Experience {
+    font-size: 32px;
+    margin: 50px auto 20px;
+  }
+
+  .job-title {
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .dates {
+    font-size: 15px;
+  }
+
+  .Experience ul {
+    font-size: 16px;
+  }
+
+  .Experience ul li {
+    padding: 6px;
+  }
+
+  .mute {
+    font-size: 32px;
+    margin: 60px auto 30px;
+  }
+
+  .Skills {
+    gap: 12px;
+    padding: 0 5% 60px;
+  }
+
+  .Skills img {
+    width: 16%;
+  }
+
+  .Projects h1 {
+    font-size: 32px;
+    margin: 70px auto 30px;
+  }
+
+  .P-Sections {
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .Projects1, .Projects2, .Projects3 {
+    width: 90%;
+  }
+
+  .P-Sections p {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .Connect h1 {
+    font-size: 32px;
+    margin-top: 70px;
+  }
+
+  .contact {
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .contact img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+section {
+  scroll-margin-top: 60px; /* or equal to your mobile nav height */
+}
+
+#home{
+    scroll-margin-top: 20px;
+}
+
+#mainclass {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 4%;
+    height: auto;
+    position: relative;
+  }
+
+  #mainclass img {
+    width: 40%;
+    height: auto;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+  }
+
+  #mainclass ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  #mainclass ul.active {
+    display: flex;
+  }
+
+  #mainclass ul li {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: left;
+    width: auto;
+    border-top: 1px solid white;
+  }
+
+  #mainclass ul li a{
+    color : aqua;
+  }
+
+  #mainclass ul li:first-child {
+    border-top: none;
+  }
+
+  .About-me {
+    font-size: 24px;
+    padding: 20px 5%;
+  }
+
+  .work {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .Image1 {
+    width: 30px;
+  }
+
+  .Myself {
+    font-size: 26px;
+    margin: 40px auto 20px;
+  }
+
+  .Myself1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .Image2 {
+    max-width: 160px;
+    border-radius: 10px;
+  }
+
+  .Myself1 p {
+    font-size: 15px;
+    padding: 15px;
+    width: auto;
+  }
+
+  .My-Experience {
+    font-size: 26px;
+    margin: 40px auto 20px;
+  }
+
+  .job-title {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .dates {
+    font-size: 14px;
+  }
+
+  .Experience ul {
+    font-size: 14px;
+    padding-left: 20px;
+    margin : 0 auto;
+  }
+
+  .Experience ul li {
+    padding: 5px;
+  }
+
+  .mute {
+    font-size: 26px;
+    margin: 50px auto 30px;
+  }
+
+  .Skills {
+    gap: 10px;
+    padding: 0 5% 40px;
+  }
+
+  .Skills img {
+    width: 20%;
+  }
+
+  .Projects h1 {
+    font-size: 26px;
+    margin: 60px auto 20px;
+  }
+
+  .P-Sections {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Projects1, .Projects2, .Projects3 {
+    width: 90%;
+  }
+
+  .Projects1 img{
+    height : auto;
+  }
+
+  .P-Sections p{
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  .Connect h1 {
+    font-size: 26px;
+    margin-top: 60px;
+  }
+
+  .contact {
+    gap: 16px;
+    padding-bottom: 40px;
+  }
+
+  .contact img {
+    width: 35px;
+  }
+}
+
