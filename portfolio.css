@@ -128,7 +128,6 @@ section {
     text-align : left;
     font-size : 16px;
     padding : 0 2%;
-    font-weight: 100;
     font-family : 'Lato', 'sans-serif';
     line-height : 1.5em;
     word-spacing: 0.1em;
@@ -171,7 +170,6 @@ section {
 
 .Experience ul li{
     font-family: 'Lato', sans-serif;
-    font-weight : 100;
     padding : 10px;
 }
 
@@ -240,7 +238,6 @@ section {
 .P-Sections p{
     font-size : 18px;
     font-family : "Lato", sans-serif;
-    font-weight : 100;
     padding : 0 1%;
     text-align : left;
     box-sizing: border-box;
